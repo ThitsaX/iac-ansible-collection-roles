@@ -70,6 +70,7 @@
     url: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh
     dest: /tmp/script.deb.sh
     mode: 0777
+    validate_certs: no
 
 - name: Run GitLab repository script
   shell: /tmp/script.deb.sh
