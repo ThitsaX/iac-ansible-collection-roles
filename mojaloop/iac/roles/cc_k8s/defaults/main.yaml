@@ -18,8 +18,8 @@ dns_bind_address: "169.254.20.10"
 argocd_override:
 argocd_default:
   argocd_appname: argocd
-  gitrepo_owner: mojaloop
-  gitrepo_repo: iac-modules
+  gitrepo_owner: thitsax
+  gitrepo_repo: mojaloop-iac-modules
   initial_argo_gitrepo_path: gitops/argo-apps/base
   root_app_gitrepo_path: gitops/argo-apps/overlays/local
   gitrepo_host_fqdn: "https://github.com/"
