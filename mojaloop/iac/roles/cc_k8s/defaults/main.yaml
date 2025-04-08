@@ -22,7 +22,7 @@ argocd_default:
   gitrepo_repo: mojaloop-iac-modules
   initial_argo_gitrepo_path: gitops/argo-apps/base
   root_app_gitrepo_path: gitops/argo-apps/overlays/local
-  gitrepo_host_fqdn: "https://github.com/"
+  gitrepo_host_fqdn: "https://github.com"
   gitrepo_raw_host_fqdn: "https://raw.githubusercontent.com"
   initial_application_gitrepo_tag: "vexp-cck8s19"
   namespace: "argocd"
